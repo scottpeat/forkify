@@ -8,6 +8,20 @@ const timeout = function (s) {
   });
 };
 
+// const apiKey = 406f0b8f-4f1a-4830-b38a-4926d1904954;
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
+
+const showRecipe = async function () {
+  try {
+    const res = await fetch(
+      'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886'
+    );
+    const data = await res.json();
+  } catch (err) {
+    alert(err);
+  }
+};
+
+console.log('TEST');
