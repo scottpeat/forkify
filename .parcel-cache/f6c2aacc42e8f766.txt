@@ -1,10 +1,10 @@
-7590
+7601
 71/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/sass/_upload.scss1662063353490799300 0
 72/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/sass/_preview.scss1662063353433933000 0
 58/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/sass1662898710612646200 1
 62/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/views1663102732909831100 1
-65/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/model.js1663105033484814100 0
-70/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/controller.js1663105060006336200 0
+65/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/model.js1663189672610862900 0
+70/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/controller.js1663184930249230800 0
 57/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/img1662898710515598000 1
 76/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/yaml/util.mjs1663097367185282100 0
 80/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/yaml/types/set.js1663097366243159100 0
@@ -319,6 +319,7 @@
 77/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/ordered-binary1663097361337393900 1
 83/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/nullthrows/README.md1663097357404256500 0
 86/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/nullthrows/package.json1663097354975506100 0
+66/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/config.js1663189610196617900 0
 89/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/nullthrows/nullthrows.d.ts1663097355529592800 0
 81/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/nullthrows/LICENSE1663097355124493900 0
 85/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/nth-check/package.json1663097359544011200 0
@@ -617,6 +618,11 @@
 83/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/glob-parent/index.js1663097355209854700 0
 84/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/get-port/package.json1663097354979589700 0
 82/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/get-port/index.d.ts1663097355205736800 0
+82/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/tests.js1663185439608461200 0
+98/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/releases/fraction-0.2.js1663185439652463700 0
+83/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/README.md1663185439556478600 0
+86/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/package.json1663185439556478600 0
+84/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/index.html1663185439609461400 0
 82/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fill-range/index.js1663097355218851700 0
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/escape-string-regexp/readme.md1663097356143973200 0
 96/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/escape-string-regexp/package.json1663097354981589500 0
@@ -1089,6 +1095,7 @@
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/index.js1663097397645196700 0
 104/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/get-prototype-of.js1663097395235428700 0
 112/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/get-own-property-symbols.js1663097395148417000 0
+82/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/index.js1663185439592467700 0
 110/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/get-own-property-names.js1663097395122443200 0
 116/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/get-own-property-descriptors.js1663097395068304700 0
 115/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/get-own-property-descriptor.js1663097395019035900 0
@@ -1952,7 +1959,7 @@
 81/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/dotenv/lib/main.js1663097359601031000 0
 106/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/ambient-light.js1663097364566692400 0
 108/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/abortcontroller.js1663097358233034800 0
-75/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/favicon.8b2f57bf.png1663102687637693200 0
+75/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/favicon.8b2f57bf.png1663189603162853600 0
 96/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/aac.js1663097357632465000 0
 96/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/optimizer-image/native.js1663097357073408000 0
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@jridgewell/gen-mapping/LICENSE1663097354993670800 0
@@ -2173,6 +2180,7 @@
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/regions/GM.js1663097383315001800 0
 110/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/transformer-image/src/validateConfig.js1663097359671395200 0
 77/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/semver/LICENSE1663097354973506300 0
+82/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/releases1663185439628454800 1
 102/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/dommatrix.js1663097379470812100 0
 111/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/lib/_possible_constructor_return.js1663097366390603100 0
 115/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/lib/_object_without_properties_loose.js1663097366304569000 0
@@ -2211,7 +2219,7 @@
 103/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/css-sticky.js1663097377922121300 0
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/string/small.js1663097404387682700 0
 120/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/src/_class_static_private_field_spec_get.mjs1663097369132407700 0
-73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.f7626f62.css1663102687594702000 0
+73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.f7626f62.css1663189603091876700 0
 105/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/modules/esnext.set.intersection.js1663097391118558200 0
 113/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/lib/_class_private_field_loose_key.js1663097362924953300 0
 99/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/array/virtual/sort.js1663097404624300500 0
@@ -2422,6 +2430,7 @@
 96/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/lib/_to_primitive.js1663097366893516700 0
 106/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/css-scrollbar.js1663097377785122500 0
 90/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/number/is-nan.js1663097398387191800 0
+73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional1663185439608461200 1
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/lib/_ts_values.js1663097367170166800 0
 112/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/src/_possible_constructor_return.mjs1663097370531907400 0
 104/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/font-smooth.js1663097380378105400 0
@@ -2572,7 +2581,7 @@
 91/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/workers/src/types.js1663097365474328900 0
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/instance/match-all.js1663097400345172000 0
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/typed-array/filter.js1663097392030782700 0
-76/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/views/recipeView.js1663102732908833600 0
+76/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js/views/recipeView.js1663190246267138700 0
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/transformer-json/LICENSE1663097354989672000 0
 87/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/reflect1663097407188159700 1
 97/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/apng.js1663097364697633700 0
@@ -2771,7 +2780,7 @@
 113/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/config-plugin-not-found1663097362075504400 1
 86/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/terser/lib/sourcemap.js1663097369967990800 0
 85/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/array1663097409113598300 1
-73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/icons.21bad73c.svg1663102687710673100 0
+73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/icons.21bad73c.svg1663189603234829500 0
 87/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/set/join.js1663097399174701500 0
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/immutable/dist/immutable.js.flow1663097357477990300 0
 85/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/promise1663097396725878700 1
@@ -3329,7 +3338,7 @@
 111/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@babel/highlight/node_modules/chalk/package.json1663097354995670000 0
 116/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/config-malformed/.parcelrc1663097359459541000 0
 88/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/css-select/lib/general.js1663097359907760000 0
-80/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@msgpackr-extract1663097409834456600 1
+80/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@msgpackr-extract1663185439685452200 1
 92/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/error/index.js1663097396641278600 0
 118/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@jridgewell/trace-mapping/dist/types/binary-search.d.ts1663097362387935300 0
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/string/fontsize.js1663097393946557700 0
@@ -3497,7 +3506,7 @@
 96/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/internals/array-buffer.js1663097367907189500 0
 88/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/watcher/README.md1663097365356255600 0
 117/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@babel/highlight/node_modules/ansi-styles/package.json1663097355266546300 0
-67/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/package-lock.json1663097409901602400 0
+67/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/package-lock.json1663185439749937900 0
 137/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-alias1663097377624114500 1
 117/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/package-manager/src/validateModuleSpecifier.js1663097366806946000 0
 105/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/json-parse-even-better-errors/package.json1663097355196549800 0
@@ -3571,7 +3580,7 @@
 84/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/weak-map1663097408624401600 1
 123/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/aliased1663097372640635700 1
 98/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/modules/es.number.is-nan.js1663097387561340900 0
-72/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.e37f48ea.js1663105060273250900 0
+72/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.e37f48ea.js1663190246392454200 0
 114/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/main-global/package.json1663097379556367300 0
 102/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/symbol/has-instance.js1663097395720189100 0
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/instance/values.js1663097408811389300 0
@@ -3586,7 +3595,7 @@
 112/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/invalid-source-missing1663097379300195400 1
 83/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/reflect1663097407225881800 1
 113/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/font-variant-numeric.js1663097381285650400 0
-62/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules1663097409936982600 1
+62/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules1663185439689450700 1
 88/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/css-select/lib/compile.js1663097358957339600 0
 109/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@jridgewell/trace-mapping/dist/types/sort.d.ts1663097362839611100 0
 78/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/yaml/types.d.ts1663097367451735900 0
@@ -3616,7 +3625,7 @@
 126/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/sample-bdb.txt1663097378760332100 0
 76/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/cache1663097361553692300 1
 97/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/array/index-of.js1663097396429007100 0
-77/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.f7626f62.css.map1663102687637693200 0
+77/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.f7626f62.css.map1663189603108871500 0
 87/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/array/from.js1663097394485334600 0
 97/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/src/_ts_generator.mjs1663097370972408500 0
 108/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@babel/highlight/node_modules/chalk/readme.md1663097357920151800 0
@@ -3652,7 +3661,7 @@
 92/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/instance/repeat.js1663097402742550000 0
 104/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/typed-array/float64-array.js1663097393787424700 0
 119/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/invalid-target-source-missing1663097379380007500 1
-81/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/.package-lock.json1663097409936982600 0
+81/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/.package-lock.json1663185439804920800 0
 117/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/custom-targets/package.json1663097379233458300 0
 89/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/map/reduce.js1663097402573993400 0
 99/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@swc/helpers/src/_async_iterator.mjs1663097368016418100 0
@@ -3722,7 +3731,7 @@
 80/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/yaml/package.json1663097366973857200 0
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@babel/code-frame/package.json1663097357118741500 0
 87/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/.bin/node-gyp-build-test1663097409472303800 0
-73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/icons.dfd7a6db.svg1663102687615492900 0
+73/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/icons.dfd7a6db.svg1663189603067884100 0
 99/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/string/starts-with.js1663097405104199800 0
 100/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/modules/esnext.array.group.js1663097389957952100 0
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/symbol/match.js1663097400490801400 0
@@ -3807,7 +3816,7 @@
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/array/splice.js1663097404901264700 0
 88/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/dotenv-expand/lib/main.js1663097358104778000 0
 99/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/array/virtual/reduce.js1663097402541629500 0
-65/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.html1663102687587704100 0
+65/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.html1663189603067884100 0
 115/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/keyboardevent-location.js1663097385346965200 0
 96/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/instance/trim-start.js1663097407858983900 0
 98/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/internals/inspect-source.js1663097397814478300 0
@@ -4075,7 +4084,7 @@
 71/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/escalade1663097358931989800 1
 88/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/browserslist/package.json1663097359935878400 0
 99/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/weak-set/add-all.js1663097363917775000 0
-54/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist1663105060315238100 1
+54/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist1663190246423437700 1
 89/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/utility-types/CHANGELOG.md1663097360343979600 0
 107/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/utils/src/replaceBundleReferences.js1663097369432704500 0
 111/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/runtime-js/src/helpers/get-worker-url.js1663097363290201900 0
@@ -4373,7 +4382,7 @@
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/iaddh.js1663097395949062400 0
 109/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/node-resolver-core/test/fixture/bar.js1663097358385888700 0
 123/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/node-resolver-core/test/fixture/env-dep/package.json1663097372575480000 0
-68/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@lmdb1663097409834456600 1
+68/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@lmdb1663185439687451800 1
 124/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js1663097356310499700 0
 91/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/number/range.js1663097402232232000 0
 109/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/node-resolver-core/test/fixture/nested1663097372268608300 1
@@ -4680,7 +4689,7 @@
 109/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/package-manager/src/JSONParseStream.js1663097365954896500 0
 91/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/optimizer-terser/src1663097356433632600 1
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/string/replace-all.js1663097402862606000 0
-56/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js1663102721153111100 1
+56/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/src/js1663189610196617900 1
 102/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/number/max-safe-integer.js1663097400667759500 0
 89/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/data-view1663097397017674800 1
 88/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/string/trim.js1663097407973171700 0
@@ -4718,7 +4727,7 @@
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/stable/object/create.js1663097383824838400 0
 137/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/package-manager/test/fixtures/has-a-not-yet-installed/package.json1663097367402805600 0
 82/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/lmdb/dict/dict2.txt1663097378754262700 0
-76/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.e37f48ea.js.map1663105060304240700 0
+76/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/index.e37f48ea.js.map1663190246415458000 0
 108/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/package-manager/test/fixtures/has-foo1663097367588909700 1
 97/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/cosmiconfig/dist/getDirectory.d.ts1663097364898578400 0
 116/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/runtime-js/lib/helpers/browser/wasm-loader.js1663097365773258400 0
@@ -5394,6 +5403,7 @@
 97/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/codeframe/lib/codeframe.js1663097367257348800 0
 132/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/@parcel/core/test/fixtures/invalid-target-source-missing/package.json1663097379393096200 0
 106/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/array/virtual/copy-within.js1663097382739185600 0
+89/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/array_mixins.js1663185439574472700 0
 102/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/array/virtual/entries.js1663097385766831300 0
 122/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_copy.11663097364609067800 0
 100/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/actual/array/virtual/every.js1663097391431345300 0
@@ -6591,6 +6601,7 @@
 98/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/terser/lib/compress/tighten-body.js1663097370171191800 0
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/clamp.js1663097378874729600 0
 93/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/clz32.js1663097379094381100 0
+98/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/fractional/releases/fraction-0.1.js1663185439628454800 0
 108/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/caniuse-lite/data/features/rest-parameters.js1663097388396710500 0
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/fround.js1663097394627288900 0
 94/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/fscale.js1663097394668276000 0
@@ -6610,7 +6621,7 @@
 98/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/typed-array/methods.js1663097400833230900 0
 97/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/es/symbol/to-string-tag.js1663097407177984800 0
 92/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/sinh.js1663097404009769200 0
-62/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/package.json1663085055875736000 0
+62/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/package.json1663185439760934300 0
 84/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/mdn-data/api/index.js1663097355551756700 0
 92/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/math/tanh.js1663097406046791400 0
 101/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/features/number/constructor.js1663097380357959200 0
@@ -7103,7 +7114,7 @@
 95/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/object/is-sealed.js1663097398516165500 0
 100/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/object/iterate-values.js1663097398783943800 0
 90/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/object/keys.js1663097399419032100 0
-72/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/logo.726d37a8.png1663102687656686900 0
+72/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/dist/logo.726d37a8.png1663189603097874700 0
 114/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/internals/create-non-enumerable-property.js1663097383622903300 0
 99/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/core-js/full/object/lookup-getter.js1663097399912583100 0
 77/mnt/c/Users/Scott/Desktop/WebDevelopment/forkify/node_modules/terser/LICENSE1663097355474129100 0
