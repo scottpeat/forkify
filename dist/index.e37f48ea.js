@@ -553,13 +553,13 @@ const controlRecipes = async function() {
         //  2/ Rendering Receipe
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (err) {
-        alert(err);
+        (0, _recipeViewJsDefault.default).renderError();
     }
 };
-[
-    "hashchange",
-    "load"
-].forEach((ev)=>window.addEventListener(ev, controlRecipes));
+const init = function() {
+    (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
+};
+init();
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","./model.js":"Y4A21","./views/recipeView.js":"l60JC"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
@@ -2291,10 +2291,10 @@ const loadRecipe = async function(id) {
             cookingTime: recipe.cooking_time,
             ingredients: recipe.ingredients
         };
-        console.log(state.recipe);
     } catch (err) {
         // Temporary error handling
         console.error(`${err} 🔥🔥🔥`);
+        throw err;
     }
 };
 
@@ -2343,6 +2343,8 @@ var _fractional = require("fractional");
 class RecipeView {
     #parentElement = document.querySelector(".recipe");
     #data;
+    #errorMessage = "We could not find that recipe.  Please try another one!";
+    #message = "";
     render(data) {
         this.#data = data;
         const markup = this.#generateMarkup();
@@ -2352,16 +2354,50 @@ class RecipeView {
      #clear() {
         this.#parentElement.innerHTML = "";
     }
-    renderSpinner = function(parentEl) {
+    renderSpinner() {
         const markup = `<div class="spinner">
     <svg>
       <use href="${(0, _iconsSvgDefault.default)}#icon-loader"></use>
     </svg>
   </div>
     `;
-        this.#parentElement.innerHTML = "";
+        this.#clear();
         this.#parentElement.insertAdjacentHTML("afterbegin", markup);
-    };
+    }
+    renderError(message = this.#errorMessage) {
+        const markup = `
+    <div class="error">
+            <div>
+              <svg>
+                <use href="src/img/${(0, _iconsSvgDefault.default)}.svg#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>
+          `;
+        this.#clear();
+        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
+    renderMessage(message = this.#message) {
+        const markup = `
+    <div class="message">
+            <div>
+              <svg>
+                <use href="src/img/${(0, _iconsSvgDefault.default)}#icon-smile"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>
+          `;
+        this.#clear();
+        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
+    addHandlerRender(handler) {
+        [
+            "hashchange",
+            "load"
+        ].forEach((ev)=>window.addEventListener(ev, handler));
+    }
      #generateMarkup() {
         return `
   <figure class="recipe__fig">

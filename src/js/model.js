@@ -20,10 +20,9 @@ export const loadRecipe = async function (id) {
       cookingTime: recipe.cooking_time,
       ingredients: recipe.ingredients,
     };
-
-    console.log(state.recipe);
   } catch (err) {
     // Temporary error handling
     console.error(`${err} 🔥🔥🔥`);
+    throw err;
   }
 };
