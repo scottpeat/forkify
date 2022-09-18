@@ -3,6 +3,8 @@ import icons from 'url:../../img/icons.svg';
 export default class View {
   _data;
   render(data) {
+    if (!data || (Array.isArray(data) && data.length === 0))
+      return this.renderError();
     this._data = data;
     const markup = this._generateMarkup();
     this._clear();
@@ -29,7 +31,7 @@ export default class View {
     <div class="error">
             <div>
               <svg>
-                <use href="src/img/${icons}.svg#icon-alert-triangle"></use>
+                <use href="${icons}#icon-alert-triangle"></use>
               </svg>
             </div>
             <p>${message}</p>
@@ -44,7 +46,7 @@ export default class View {
     <div class="message">
             <div>
               <svg>
-                <use href="src/img/${icons}#icon-smile"></use>
+                <use href="${icons}#icon-smile"></use>
               </svg>
             </div>
             <p>${message}</p>
