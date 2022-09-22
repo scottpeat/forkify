@@ -89,9 +89,8 @@ const controlBookmarks = function () {
 };
 
 const controlAddRecipe = function (newRecipe) {
-  console.log(newRecipe);
-
   // Upload the new recipe data
+  model.uploadRecipe(newRecipe);
 };
 
 const init = function () {
@@ -105,9 +104,3 @@ const init = function () {
 };
 
 init();
-
-const clearBookmarks = function () {
-  localStorage.clear('bookmarks');
-};
-
-// clearBookmarks();
