@@ -45,10 +45,10 @@ export default class View {
 
       // Updates changed attributes
 
-      if (!newEl.isEqualNode(curEl)) console.log(newEl.attributes);
-      Array.from(newEl.attributes).forEach(attr =>
-        curEl.setAttribute(attr.name, attr.value)
-      );
+      if (!newEl.isEqualNode(curEl))
+        Array.from(newEl.attributes).forEach(attr =>
+          curEl.setAttribute(attr.name, attr.value)
+        );
     });
   }
 
