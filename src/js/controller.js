@@ -12,7 +12,6 @@ import { async } from 'regenerator-runtime';
 
 const recipeContainer = document.querySelector('.recipe');
 
-// const apiKey = 406f0b8f-4f1a-4830-b38a-4926d1904954;
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
@@ -88,9 +87,14 @@ const controlBookmarks = function () {
   bookmarksView.render(model.state.bookmarks);
 };
 
-const controlAddRecipe = function (newRecipe) {
-  // Upload the new recipe data
-  model.uploadRecipe(newRecipe);
+const controlAddRecipe = async function (newRecipe) {
+  try {
+    // Upload the new recipe data
+    await model.uploadRecipe(newRecipe);
+  } catch (err) {
+    console.log('🔥', err);
+    addRecipeView.renderError(err.message);
+  }
 };
 
 const init = function () {
