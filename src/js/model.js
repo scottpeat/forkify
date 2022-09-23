@@ -16,7 +16,7 @@ export const state = {
 
 const createRecipeObject = function (data) {
   const { recipe } = data.data;
-  state.recipe = {
+  return {
     id: recipe.id,
     title: recipe.title,
     publisher: recipe.publisher,
@@ -25,6 +25,7 @@ const createRecipeObject = function (data) {
     servings: recipe.servings,
     cookingTime: recipe.cooking_time,
     ingredients: recipe.ingredients,
+    ...(recipe.key && { key: recipe.key }),
   };
 };
 
@@ -147,7 +148,8 @@ export const uploadRecipe = async function (newRecipe) {
       `${API_URL}?search=${recipe.title}&key=${API_KEY}`,
       recipe
     );
-    console.log(data);
+    state.recipe = createRecipeObject(data);
+    addBookmark(state.recipe);
   } catch (err) {
     throw err;
   }
